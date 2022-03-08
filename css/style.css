@@ -1,6 +1,109 @@
 body {
 	font-family: 'Inter', sans-serif !important;
 }
+
+
+/* ------------------------------ START NAV BAR ----------------------------- */
+.nav-bar{
+    z-index:999999;
+}
+.nav-bar .navbar-brand img{
+    width: 150px;
+}
+/* ------------------------------ END NAV BAR ----------------------------- */
+
+/* ------------------------------ START HEADER ------------------------------ */
+
+.background{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.header .layer {
+    background-image: url(../images/1.jpg);
+}
+.header .layer2 {
+    background-image: url(../images/2.jpg);
+}
+.header .layer3 {
+    background-image: url(../images/3.jpg);
+}
+.header .layer4 {
+    background-image: url(../images/4.jpg);
+}
+.header .layer5 {
+    background-image: url(../images/5.jpg);
+}
+
+.caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.caption h2{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.caption h4{
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width:600px) {
+    .caption h2{
+        font-size: 3rem;
+    }
+}
+
+.buttons .one{
+    background-color: #fff;
+    border-radius: 0px !important;
+    margin-right: 15px;
+    padding: 8px 15px;
+}
+.buttons .two{
+    background-color: rgba(255, 255, 255, 0.377);
+    border: 1px solid white;
+    color: white;
+    border-radius: 0px !important;
+    padding: 8px 15px;
+    transition: all 0.5s;
+}
+
+.buttons .two:hover{
+
+    background-color: #fff;
+    color: black;
+}
+
+.mouse img{
+    width: 50px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 5%;
+    margin: auto;
+}
+
+/* ------------------------------ END HEADER ------------------------------ */
+
+
+
+
+
+
 .work-title h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 600 !important;
@@ -17,7 +120,6 @@ body {
     cursor: pointer;
 }
 .work-imgs img {
-	height: 300px;
     transition: all 0.7s;
 }
 .work-imgs:hover img{

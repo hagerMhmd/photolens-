@@ -18,21 +18,100 @@
 
 <body>
 
+    <!-- ---------------------------- START NAV-BAR ---------------------------- -->
+    <div class="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-2 fixed-top">
+            <div class="container">
+              <a class="navbar-brand mb-3 " href="#">
+                  <img src="images/logo.svg" alt="" srcset="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" href="#">WORK</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" href="#">SHOP</a>
+                  </li>
+                  <li class="nav-item me-3 mb-2 mb-md-0 ">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                  <div class="icon-shop d-flex align-items-center">
+                    <i class="fas fa-cart-plus fa-2x"></i>
+                  </div>    
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- ---------------------------- END NAV-BAR ---------------------------- -->
+
+    <!-- ---------------------------- START HEADER ----------------------------- -->
+
+    <div class="header position-relative vh-100 ">
+        <div class="carsol">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-inner  " >
+              <div class="carousel-item active">
+                <div class="layer background"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="layer2 background"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="layer3 background"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="layer4 background"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="layer5 background"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="caption">
+                <h2>HARVEY WALTON</h2>
+                <h4>PHOTOGRAPHER || VIDEOMAKER || TRAVEL EXPERT</h4>
+                <div class="buttons">
+                    <button class="btn one">GET IN TOUCH</button>
+                    <button class="btn two">VISIT MY SHOP</button>
+                </div>
+                <div class="mouse">
+                    <img src="images/scroll-down-mouse.gif" alt="" srcset="">
+                </div>
+            </div>
+    </div>
+
+     <!-- ---------------------------- END HEADER ----------------------------- -->
+
+
+
+
 
     <!------------ Work Start  ------------->
     <section id="Work">
-        <div class="mx-5 text-center my-5">
+        <div class="mx-5 text-center my-5 py-5">
+          <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="work-title">
-                        <h1 class="fw-bold">WORK</h1>
-                        <p>Vivamus aliquam vehicula gravida. Sed luctus posuere luctus. Morbi tempor, massa eget dignissim
+                        <h1 class="fw-bold mb-2">WORK</h1>
+                        <p class="mb-5">Vivamus aliquam vehicula gravida. Sed luctus posuere luctus. Morbi tempor, massa eget dignissim
                             tincidunt, lorem dolor ultrices lacus, a molestie massa dui varius sapien.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-12 col-md ">
                     <div class="work-imgs overflow-hidden mb-2 position-relative" >
                         <img src="images/media.jpg" class="w-100" alt="">
                         <div class="work-layer position-absolute top-0 end-0 start-0 bottom-0 d-flex align-items-center justify-content-center">
@@ -40,7 +119,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col ">
                     <div class="work-imgs overflow-hidden mb-2 position-relative" >
                         <img src="images/Events.jpg" class="w-100" alt="">
                         <div class="work-layer position-absolute top-0 end-0 start-0 bottom-0 d-flex align-items-center justify-content-center">
@@ -48,7 +127,8 @@
                         </div> 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="w-100"></div>
+                <div class="col-sm-12 col-md  ">
                     <div class="work-imgs overflow-hidden mb-2 position-relative" >
                         <img src="images/Portraits.jpg" class="w-100" alt="">
                         <div class="work-layer position-absolute top-0 end-0 start-0 bottom-0 d-flex align-items-center justify-content-center">
@@ -56,7 +136,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col">
                     <div class="work-imgs overflow-hidden mb-2 position-relative" >
                         <img src="images/Lansscape.jpg" class="w-100" alt="">
                         <div class="work-layer position-absolute top-0 end-0 start-0 bottom-0 d-flex align-items-center justify-content-center">
@@ -64,6 +144,7 @@
                         </div> 
                     </div>
                 </div>
+              </div>
             </div>
         </div>
     </section>
