@@ -98,18 +98,9 @@ body {
 }
 
 /* ------------------------------ END HEADER ------------------------------ */
-
-
-
-
-
-
 .work-title h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 600 !important;
-}
-.work-title p {
-	font-size: 1.2rem;
 }
 .work-imgs h3 {
 	color: #edf2f5;
