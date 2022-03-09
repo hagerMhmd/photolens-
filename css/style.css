@@ -1,7 +1,12 @@
 body {
 	font-family: 'Inter', sans-serif !important;
 }
-
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
 
 /* ------------------------------ START NAV BAR ----------------------------- */
 .nav-bar{
